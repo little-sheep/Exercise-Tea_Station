@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/improve.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="navbar">
+      <button class="nav-btn" id="nav-btn">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+
+    <nav class="nav-lists" id="nav-lists">
+      <div class="close-btn-container">
+        <button class="close-btn" id="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <ul class="nav-content">
+        <li class="nav-item"><a href="index.html">home</a></li>
+        <li class="nav-item">
+          <a href="skills.html">skills</a>
+        </li>
+        <li class="nav-item"><a href="about.html">about</a></li>
+        <li class="nav-item"><a href="products.html">products</a></li>
+      </ul>
+    </nav>
+
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavors of</h2>
+        <h1>
+          specially <br />
+          crafted tea
+        </h1>
+        <a href="skills.html" class="btn banner-btn">explore</a>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- about section -->
+    <section>
+      <div class="section-center clearfix">
+        <!-- about-img -->
+        <article class="about-img">
+          <div class="about-picture-container">
+            <img
+              src="./images/about-bcg.jpeg"
+              alt="tea kettle"
+              class="about-picture"
+            />
+          </div>
+        </article>
+
+        <!-- about-info -->
+        <article class="about-info">
+          <!-- section title -->
+          <div class="section-title">
+            <h3>about our</h3>
+            <h2>tea station</h2>
+          </div>
+          <!-- end of section title -->
+          <p class="about-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+            provident esse accusamus officiis fuga nesciunt!
+          </p>
+          <p class="about-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex
+            provident esse accusamus officiis fuga nesciunt!
+          </p>
+          <a href="about.html" class="btn about-btn">learn more</a>
+        </article>
+      </div>
+    </section>
+    <!-- end of about section -->
+
+    <!-- footer -->
+    <footer class="rights clearfix">
+      <div class="rights-box">
+        <div class="media-icon">
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+        </div>
+        <h4 class="rights-text">
+          &copy;<span id="year"></span><span> tea station</span> all rights
+          reserved
+        </h4>
+      </div>
+    </footer>
+    <!-- end of footer -->
+    <script src="app.js"></script>
+  </body>
+</html>
